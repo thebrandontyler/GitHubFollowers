@@ -14,6 +14,7 @@ class GFAlertVC: UIViewController {
     let titleLabel = GFTitleLabel(textAlignment: .center, fontSize: 20)
     let messageLabel = GFBodyLabel(textAlignment: .center)
     let actionButton = GFButton(backgroundColor: .systemPink, title: "Ok")
+    var dismissAction: (() -> Void)? = nil
     
     var alertTitle: String?
     var message: String?
@@ -21,11 +22,12 @@ class GFAlertVC: UIViewController {
     
     let padding: CGFloat = 20
     
-    init(title: String, message: String, buttonTitle: String) {
+    init(title: String, message: String, buttonTitle: String, dismissAction: (() -> Void)? = nil) {
         super.init(nibName: nil, bundle: nil)
         self.alertTitle = title
         self.message = message
         self.buttonTitle = buttonTitle
+        self.dismissAction = dismissAction
     }
     
     required init?(coder: NSCoder) {
@@ -97,6 +99,8 @@ class GFAlertVC: UIViewController {
     }
     
     @objc func dismissVC() {
-        dismiss(animated: true)
+        dismiss(animated: true) {
+            self.dismissAction?()
+        }
     }
 }
