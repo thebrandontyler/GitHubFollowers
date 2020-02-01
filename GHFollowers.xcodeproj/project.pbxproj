@@ -27,6 +27,7 @@
 		63DB2D2623E3F64A000DB163 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2D2523E3F64A000DB163 /* User.swift */; };
 		63DB2D2923E5C052000DB163 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2D2823E5C052000DB163 /* NetworkManager.swift */; };
 		63DB2D2C23E5CEB3000DB163 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2D2B23E5CEB3000DB163 /* ErrorMessage.swift */; };
+		63E7E79323E6434A0015E15C /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E7E79223E6434A0015E15C /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		63DB2D2523E3F64A000DB163 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		63DB2D2823E5C052000DB163 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		63DB2D2B23E5CEB3000DB163 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		63E7E79223E6434A0015E15C /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				63DB2D2B23E5CEB3000DB163 /* ErrorMessage.swift */,
+				63E7E79223E6434A0015E15C /* UIHelper.swift */,
 			);
 			path = Utilties;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				63DB2D1723E286B2000DB163 /* GFTitleLabel.swift in Sources */,
 				63DB2D1523E28384000DB163 /* String+Ext.swift in Sources */,
 				63DB2D2C23E5CEB3000DB163 /* ErrorMessage.swift in Sources */,
+				63E7E79323E6434A0015E15C /* UIHelper.swift in Sources */,
 				63DB2D2923E5C052000DB163 /* NetworkManager.swift in Sources */,
 				63DB2CF923E0FF78000DB163 /* SceneDelegate.swift in Sources */,
 				63DB2D1923E28865000DB163 /* GFBodyLabel.swift in Sources */,
