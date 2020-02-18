@@ -58,6 +58,14 @@ extension UIViewController {
     }
     
     func showEmptyStateView(with message: String, in view: UIView) {
+        
+        // If GFEmptyStateView already exists, then show it
+        if let gfEmptyStateView = view.subviews.first(where: { $0 is GFEmptyStateView }) {
+            view.bringSubviewToFront(gfEmptyStateView)
+            return
+        }
+
+        // Otherwise, create it and show it
         let emptyStateView = GFEmptyStateView(message: message)
         emptyStateView.frame = view.bounds
         view.addSubview(emptyStateView)

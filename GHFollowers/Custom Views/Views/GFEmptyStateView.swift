@@ -32,6 +32,8 @@ class GFEmptyStateView: UIView {
         addSubview(messageLabel)
         addSubview(logoImageView)
         
+        backgroundColor = .systemBackground
+        
         messageLabel.numberOfLines = 3
         messageLabel.textColor = .secondaryLabel
         
