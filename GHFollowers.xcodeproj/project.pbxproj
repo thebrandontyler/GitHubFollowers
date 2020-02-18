@@ -39,6 +39,7 @@
 		63E7E79323E6434A0015E15C /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E7E79223E6434A0015E15C /* UIHelper.swift */; };
 		63FBDDAC23FA4ABB0070503F /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDAB23FA4ABB0070503F /* Date+Ext.swift */; };
 		63FBDDAE23FB7E910070503F /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDAD23FB7E910070503F /* PersistenceManager.swift */; };
+		63FBDDB023FB8CBF0070503F /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDAF23FB8CBF0070503F /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		63E7E79223E6434A0015E15C /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		63FBDDAB23FA4ABB0070503F /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		63FBDDAD23FB7E910070503F /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		63FBDDAF23FB8CBF0070503F /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				6334957323E62B51001919F0 /* FollowerCell.swift */,
+				63FBDDAF23FB8CBF0070503F /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				6334957623E62BE8001919F0 /* GFAvatarImageView.swift in Sources */,
 				635D140323F6725F007CC64B /* GFRepoItemVC.swift in Sources */,
 				63DB2D1B23E2891C000DB163 /* GFAlertVC.swift in Sources */,
+				63FBDDB023FB8CBF0070503F /* FavoriteCell.swift in Sources */,
 				633F7D0423E7EB2100151D2A /* UserInfoVC.swift in Sources */,
 				63DB2D2423E3F58F000DB163 /* Follower.swift in Sources */,
 				63DB2CF723E0FF78000DB163 /* AppDelegate.swift in Sources */,
