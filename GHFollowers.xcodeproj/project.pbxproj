@@ -41,6 +41,7 @@
 		63FBDDAE23FB7E910070503F /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDAD23FB7E910070503F /* PersistenceManager.swift */; };
 		63FBDDB023FB8CBF0070503F /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDAF23FB8CBF0070503F /* FavoriteCell.swift */; };
 		63FBDDB323FC7E920070503F /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDB223FC7E920070503F /* GFTabBarController.swift */; };
+		63FBDDB523FC8FDC0070503F /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDB423FC8FDC0070503F /* GFAlertContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		63FBDDAD23FB7E910070503F /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		63FBDDAF23FB8CBF0070503F /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		63FBDDB223FC7E920070503F /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
+		63FBDDB423FC8FDC0070503F /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				6302507223E7DCF700D2CDBB /* GFEmptyStateView.swift */,
 				635D13FE23F663FD007CC64B /* GFItemInfoView.swift */,
+				63FBDDB423FC8FDC0070503F /* GFAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				63DB2CF723E0FF78000DB163 /* AppDelegate.swift in Sources */,
 				63DB2D1723E286B2000DB163 /* GFTitleLabel.swift in Sources */,
 				63DB2D1523E28384000DB163 /* String+Ext.swift in Sources */,
+				63FBDDB523FC8FDC0070503F /* GFAlertContainerView.swift in Sources */,
 				635D140123F66ED7007CC64B /* GFItemInfoVC.swift in Sources */,
 				635D140523F673EC007CC64B /* GFFollowerItemVC.swift in Sources */,
 				63FBDDAE23FB7E910070503F /* PersistenceManager.swift in Sources */,
