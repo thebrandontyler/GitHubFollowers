@@ -38,6 +38,7 @@
 		63DB2D2C23E5CEB3000DB163 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2D2B23E5CEB3000DB163 /* GFError.swift */; };
 		63E7E79323E6434A0015E15C /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E7E79223E6434A0015E15C /* UIHelper.swift */; };
 		63FBDDAC23FA4ABB0070503F /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDAB23FA4ABB0070503F /* Date+Ext.swift */; };
+		63FBDDAE23FB7E910070503F /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDAD23FB7E910070503F /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		63DB2D2B23E5CEB3000DB163 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		63E7E79223E6434A0015E15C /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		63FBDDAB23FA4ABB0070503F /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		63FBDDAD23FB7E910070503F /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				63DB2D2823E5C052000DB163 /* NetworkManager.swift */,
+				63FBDDAD23FB7E910070503F /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				63DB2D1523E28384000DB163 /* String+Ext.swift in Sources */,
 				635D140123F66ED7007CC64B /* GFItemInfoVC.swift in Sources */,
 				635D140523F673EC007CC64B /* GFFollowerItemVC.swift in Sources */,
+				63FBDDAE23FB7E910070503F /* PersistenceManager.swift in Sources */,
 				63DB2D2C23E5CEB3000DB163 /* GFError.swift in Sources */,
 				63E7E79323E6434A0015E15C /* UIHelper.swift in Sources */,
 				63FBDDAC23FA4ABB0070503F /* Date+Ext.swift in Sources */,
