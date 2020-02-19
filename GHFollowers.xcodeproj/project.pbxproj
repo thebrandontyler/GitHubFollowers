@@ -43,6 +43,7 @@
 		63FBDDB323FC7E920070503F /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDB223FC7E920070503F /* GFTabBarController.swift */; };
 		63FBDDB523FC8FDC0070503F /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDB423FC8FDC0070503F /* GFAlertContainerView.swift */; };
 		63FBDDB723FCAD110070503F /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDB623FCAD110070503F /* GFDataLoadingVC.swift */; };
+		63FBDDB923FDB6980070503F /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDB823FDB6980070503F /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		63FBDDB223FC7E920070503F /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		63FBDDB423FC8FDC0070503F /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		63FBDDB623FCAD110070503F /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
+		63FBDDB823FDB6980070503F /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,9 +233,10 @@
 		63DB2D2023E299BF000DB163 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				63DB2D1423E28384000DB163 /* String+Ext.swift */,
-				63DB2D1C23E29384000DB163 /* UIViewController+Ext.swift */,
 				63FBDDAB23FA4ABB0070503F /* Date+Ext.swift */,
+				63DB2D1423E28384000DB163 /* String+Ext.swift */,
+				63FBDDB823FDB6980070503F /* UIView+Ext.swift */,
+				63DB2D1C23E29384000DB163 /* UIViewController+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				63DB2D2923E5C052000DB163 /* NetworkManager.swift in Sources */,
 				63DB2CF923E0FF78000DB163 /* SceneDelegate.swift in Sources */,
 				635D13FF23F663FD007CC64B /* GFItemInfoView.swift in Sources */,
+				63FBDDB923FDB6980070503F /* UIView+Ext.swift in Sources */,
 				63DB2D1923E28865000DB163 /* GFBodyLabel.swift in Sources */,
 				635D13FD23F62179007CC64B /* Constants.swift in Sources */,
 			);
