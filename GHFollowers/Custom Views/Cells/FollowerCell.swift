@@ -23,7 +23,7 @@ class FollowerCell: UICollectionViewCell {
     }
     
     func set(follower: Follower) {
-        avatarImageView.image = nil
+        avatarImageView.image = Images.placeholder
         usernameLabel.text = follower.login
         NetworkManager.shared.downloadImage(from: follower.avatarUrl) { [weak self] image in
             guard let self = self else { return }
