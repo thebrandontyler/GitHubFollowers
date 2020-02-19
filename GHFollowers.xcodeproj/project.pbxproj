@@ -150,8 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				63DB2D1823E28865000DB163 /* GFBodyLabel.swift */,
-				63DB2D1623E286B2000DB163 /* GFTitleLabel.swift */,
 				635D13FA23F61B6B007CC64B /* GFSecondaryTitleLabel.swift */,
+				63DB2D1623E286B2000DB163 /* GFTitleLabel.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -159,8 +159,8 @@
 		6334957223E62B32001919F0 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				6334957323E62B51001919F0 /* FollowerCell.swift */,
 				63FBDDAF23FB8CBF0070503F /* FavoriteCell.swift */,
+				6334957323E62B51001919F0 /* FollowerCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -168,9 +168,9 @@
 		635D140623F6743B007CC64B /* ItemInfoVCs */ = {
 			isa = PBXGroup;
 			children = (
+				635D140423F673EC007CC64B /* GFFollowerItemVC.swift */,
 				635D140023F66ED7007CC64B /* GFItemInfoVC.swift */,
 				635D140223F6725F007CC64B /* GFRepoItemVC.swift */,
-				635D140423F673EC007CC64B /* GFFollowerItemVC.swift */,
 			);
 			path = ItemInfoVCs;
 			sourceTree = "<group>";
@@ -276,9 +276,9 @@
 		63DB2D2A23E5CEA1000DB163 /* Utilties */ = {
 			isa = PBXGroup;
 			children = (
+				635D13FC23F62179007CC64B /* Constants.swift */,
 				63DB2D2B23E5CEB3000DB163 /* GFError.swift */,
 				63E7E79223E6434A0015E15C /* UIHelper.swift */,
-				635D13FC23F62179007CC64B /* Constants.swift */,
 			);
 			path = Utilties;
 			sourceTree = "<group>";
