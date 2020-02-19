@@ -44,6 +44,7 @@
 		63FBDDB523FC8FDC0070503F /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDB423FC8FDC0070503F /* GFAlertContainerView.swift */; };
 		63FBDDB723FCAD110070503F /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDB623FCAD110070503F /* GFDataLoadingVC.swift */; };
 		63FBDDB923FDB6980070503F /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDB823FDB6980070503F /* UIView+Ext.swift */; };
+		63FBDDBB23FDC75E0070503F /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBDDBA23FDC75E0070503F /* UITableView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		63FBDDB423FC8FDC0070503F /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		63FBDDB623FCAD110070503F /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 		63FBDDB823FDB6980070503F /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		63FBDDBA23FDC75E0070503F /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +239,7 @@
 				63DB2D1423E28384000DB163 /* String+Ext.swift */,
 				63FBDDB823FDB6980070503F /* UIView+Ext.swift */,
 				63DB2D1C23E29384000DB163 /* UIViewController+Ext.swift */,
+				63FBDDBA23FDC75E0070503F /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				63DB2D2423E3F58F000DB163 /* Follower.swift in Sources */,
 				63DB2CF723E0FF78000DB163 /* AppDelegate.swift in Sources */,
 				63DB2D1723E286B2000DB163 /* GFTitleLabel.swift in Sources */,
+				63FBDDBB23FDC75E0070503F /* UITableView+Ext.swift in Sources */,
 				63DB2D1523E28384000DB163 /* String+Ext.swift in Sources */,
 				63FBDDB523FC8FDC0070503F /* GFAlertContainerView.swift in Sources */,
 				635D140123F66ED7007CC64B /* GFItemInfoVC.swift in Sources */,
