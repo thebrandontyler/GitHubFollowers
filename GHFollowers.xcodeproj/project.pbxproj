@@ -18,6 +18,7 @@
 		635D140123F66ED7007CC64B /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D140023F66ED7007CC64B /* GFItemInfoVC.swift */; };
 		635D140323F6725F007CC64B /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D140223F6725F007CC64B /* GFRepoItemVC.swift */; };
 		635D140523F673EC007CC64B /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D140423F673EC007CC64B /* GFFollowerItemVC.swift */; };
+		63949BB6291F2AE3006E19F0 /* FollowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63949BB5291F2AE3006E19F0 /* FollowerView.swift */; };
 		63DB2CF723E0FF78000DB163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2CF623E0FF78000DB163 /* AppDelegate.swift */; };
 		63DB2CF923E0FF78000DB163 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2CF823E0FF78000DB163 /* SceneDelegate.swift */; };
 		63DB2D0023E0FF7B000DB163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DB2CFF23E0FF7B000DB163 /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		635D140023F66ED7007CC64B /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 		635D140223F6725F007CC64B /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		635D140423F673EC007CC64B /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
+		63949BB5291F2AE3006E19F0 /* FollowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerView.swift; sourceTree = "<group>"; };
 		63DB2CF323E0FF78000DB163 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DB2CF623E0FF78000DB163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63DB2CF823E0FF78000DB163 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,8 +161,8 @@
 		6334957223E62B32001919F0 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				63949BB4291F2ACC006E19F0 /* FollowerCell */,
 				63FBDDAF23FB8CBF0070503F /* FavoriteCell.swift */,
-				6334957323E62B51001919F0 /* FollowerCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -173,6 +175,15 @@
 				635D140223F6725F007CC64B /* GFRepoItemVC.swift */,
 			);
 			path = ItemInfoVCs;
+			sourceTree = "<group>";
+		};
+		63949BB4291F2ACC006E19F0 /* FollowerCell */ = {
+			isa = PBXGroup;
+			children = (
+				6334957323E62B51001919F0 /* FollowerCell.swift */,
+				63949BB5291F2AE3006E19F0 /* FollowerView.swift */,
+			);
+			path = FollowerCell;
 			sourceTree = "<group>";
 		};
 		63DB2CEA23E0FF78000DB163 = {
@@ -361,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63949BB6291F2AE3006E19F0 /* FollowerView.swift in Sources */,
 				63DB2D1123E13B21000DB163 /* GFTextField.swift in Sources */,
 				63DB2D0D23E133A1000DB163 /* FavoritesListVC.swift in Sources */,
 				63DB2D1D23E29384000DB163 /* UIViewController+Ext.swift in Sources */,
